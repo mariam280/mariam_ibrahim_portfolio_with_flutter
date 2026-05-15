@@ -1,7 +1,7 @@
 final gitHubLink = "https://github.com/mariam280";
-final myEmail = "https://mail.google.com/mail/u/0/?tab=rm&ogbl";
+final myEmail = "mailto:neamamohammed649@gmail.com";
 final myCV =
-    "https://drive.google.com/file/d/1mQGJBaSOOsT4xpSvqEzaWatAM5Q8lzxq/view?usp=sharing";
+    "https://drive.google.com/file/d/1ff94LndRWyKu6Z9AmV3rOAiZQLx-jRDo/view?usp=sharing";
 final linkdenLink = "https://www.linkedin.com/in/mariam-ebrahim-15605a348";
 final newsifyGitHub = "https://github.com/mariam280/newsify_app";
 final newsifyDemo =
