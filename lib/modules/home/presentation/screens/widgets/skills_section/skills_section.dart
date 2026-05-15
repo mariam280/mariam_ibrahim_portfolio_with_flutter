@@ -11,25 +11,29 @@ class SkillsSection extends StatelessWidget {
     return Column(
       spacing: 20,
       children: [
-      SectionName(sectionName: "Skills & Technologies"),
-      Wrap(
-        spacing: 16,
-        runSpacing: 8,
-        children: [
-          SkillsItem(image: Assets.imagesFlutterSkill, text: "Flutter"),
-          SkillsItem(image: Assets.imagesDartSkill, text: "Dart"),
-          SkillsItem(image: Assets.imagesFirebaseSkill, text: "Firebase"),
-          SkillsItem(image: Assets.imagesApiSkill, text: "REST APIs"),
-          SkillsItem(image: Assets.imagesBlocSkill, text: "Cubit / BLoC"),
-          SkillsItem(image: Assets.imagesSqlSkill, text: "SQL"),
-          SkillsItem(image: Assets.imagesFirebaseSkill, text: "Supabase"),
-          SkillsItem(image: Assets.imagesSqlSkill, text: "local Storage"),
-          SkillsItem(image: Assets.imagesBlocSkill, text: "Provider"),
-          SkillsItem(image: Assets.imagesGitSkill, text: "Git / GitHub"),
-          SkillsItem(image: Assets.imagesApiSkill, text: "Postman"),
-          SkillsItem(image: Assets.imagesFlutterSkill, text: "VS code"),
-          SkillsItem(image: Assets.imagesApiSkill, text: "CI/CD"),
-      ],),
-    ],);
+        SectionName(sectionName: "Skills & Technologies"),
+        Wrap(
+          spacing: 16,
+          runSpacing: 8,
+          alignment: WrapAlignment.center,
+          runAlignment: WrapAlignment.center,
+          children: [
+            SkillsItem(image: Assets.imagesFlutterSkill, text: "Flutter"),
+            SkillsItem(image: Assets.imagesDartSkill, text: "Dart"),
+            SkillsItem(image: Assets.imagesFirebaseSkill, text: "Firebase"),
+            SkillsItem(image: Assets.imagesApiSkill, text: "REST APIs"),
+            SkillsItem(image: Assets.imagesBlocSkill, text: "Cubit / BLoC"),
+            SkillsItem(image: Assets.imagesSqlSkill, text: "SQL"),
+            SkillsItem(image: Assets.imagesFirebaseSkill, text: "Supabase"),
+            SkillsItem(image: Assets.imagesSqlSkill, text: "local Storage"),
+            SkillsItem(image: Assets.imagesBlocSkill, text: "Provider"),
+            SkillsItem(image: Assets.imagesGitSkill, text: "Git / GitHub"),
+            SkillsItem(image: Assets.imagesApiSkill, text: "Postman"),
+            SkillsItem(image: Assets.imagesFlutterSkill, text: "VS code"),
+            SkillsItem(image: Assets.imagesApiSkill, text: "CI/CD"),
+          ],
+        ),
+      ],
+    );
   }
 }
