@@ -45,12 +45,3 @@ The portfolio UI was initially conceptualized using Figma AI based on prompts I 
 ## 🎯 Purpose
 
 This portfolio was created to present my technical skills, projects, and learning journey in a professional way while demonstrating my Flutter development abilities, UI implementation skills, and responsive web development experience.
-
-## 📂 Project Repository
-
-GitHub Repository:
-https://github.com/mariam280/mariam_ibrahim_portfolio_with_flutter
-
-
-* LinkedIn: https://www.linkedin.com/in/neama-mohammed-1753302b8
-* GitHub: https://github.com/mariam280
